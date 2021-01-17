@@ -6,16 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="healthy-registry" />
         <module name="healthy-gateway" />
+        <module name="healthy-item-interface" />
+        <module name="healthy-upload" />
+        <module name="healthy-common" />
+        <module name="healthy-registry" />
+        <module name="healthy-item-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="healthy-common" options="-parameters" />
       <module name="healthy-gateway" options="-parameters" />
+      <module name="healthy-item-interface" options="-parameters" />
+      <module name="healthy-item-service" options="-parameters" />
       <module name="healthy-registry" options="-parameters" />
+      <module name="healthy-upload" options="-parameters" />
       <module name="healthy_manage" options="-parameters" />
     </option>
   </component>

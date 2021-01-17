@@ -7,6 +7,9 @@
     <modules>
         <module>healthy-registry</module>
         <module>healthy-gateway</module>
+        <module>healthy-item</module>
+        <module>healthy-common</module>
+        <module>healthy-upload</module>
     </modules>
 
     <groupId>com.healthy</groupId>
